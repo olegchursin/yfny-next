@@ -1,7 +1,59 @@
 module.exports =
 __NEXT_REGISTER_PAGE('/contacts', function() {
           var comp =
-      webpackJsonp([8],{
+      webpackJsonp([6],{
+
+/***/ "./components/ContactPageContent.jsx":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _jsxFileName = "/Users/oc/dev/rcny/yfny-next/components/ContactPageContent.jsx";
+
+var styles = {
+  contactPageContentWrapper: {
+    padding: '100px 40px',
+    fontFamily: 'Rubik',
+    textAlign: 'center'
+  }
+};
+
+var ContactPageContent = function ContactPageContent() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    style: styles.contactPageContentWrapper,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    }
+  }, "\u041C\u041E\u041B\u041E\u0414\u0415\u0416\u041D\u042B\u0419 \u0424\u041E\u0420\u0423\u041C \u0412 \u041D\u042C\u042E-\u0419\u041E\u0420\u041A\u0415"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    }
+  }, "\u041F\u043E \u0432\u0441\u0435\u043C \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u0443\u044E\u0449\u0438\u043C \u0432\u043E\u043F\u0440\u043E\u0441\u0430\u043C \u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u0441\u0432\u044F\u0437\u0430\u0442\u044C\u0441\u044F \u0441 \u043E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0442\u043E\u0440\u043E\u043C \u0444\u043E\u0440\u0443\u043C\u0430 - \u0420\u0443\u0441\u0441\u043A\u0438\u043C \u0446\u0435\u043D\u0442\u0440\u043E\u043C \u0432 \u041D\u044C\u044E-\u0419\u043E\u0440\u043A\u0435."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  }, "E-mail:\xA0", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    href: "mailto:hello@russiancenterny.org? Subject=Message%20from%20official%20website.s",
+    target: "_top",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    }
+  }, "hello@russiancenterny.org")));
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (ContactPageContent);
+
+/***/ }),
 
 /***/ "./components/Footer.jsx":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -53,6 +105,10 @@ var styles = {
     margin: '20px 0',
     fontSize: '3em'
   },
+  socialMediaLink: {
+    color: 'white',
+    cursor: 'pointer'
+  },
   yfnyLogo: {
     margin: 40,
     width: 250
@@ -69,93 +125,120 @@ var styles = {
     style: styles.footerWrapper,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 59
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 60
     }
   }, __WEBPACK_IMPORTED_MODULE_1__utils_info__["b" /* yfny */].socialMedia.hashtag, "/ ", __WEBPACK_IMPORTED_MODULE_1__utils_info__["b" /* yfny */].socialMedia.nametag), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 62
     }
   }, __WEBPACK_IMPORTED_MODULE_1__utils_info__["a" /* rcny */].email), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     style: styles.socialMediaGroup,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 63
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    style: styles.socialMediaLink,
+    href: __WEBPACK_IMPORTED_MODULE_1__utils_info__["b" /* yfny */].socialMedia.facebook,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__fortawesome_react_fontawesome__["a" /* FontAwesomeIcon */], {
     style: styles.socialMediaIcon,
     icon: __WEBPACK_IMPORTED_MODULE_4__fortawesome_free_brands_svg_icons__["a" /* faFacebookSquare */],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 64
     }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__fortawesome_react_fontawesome__["a" /* FontAwesomeIcon */], {
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    style: styles.socialMediaLink,
+    href: __WEBPACK_IMPORTED_MODULE_1__utils_info__["b" /* yfny */].socialMedia.instagram,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__fortawesome_react_fontawesome__["a" /* FontAwesomeIcon */], {
     style: styles.socialMediaIcon,
     icon: __WEBPACK_IMPORTED_MODULE_4__fortawesome_free_brands_svg_icons__["b" /* faInstagram */],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 65
     }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__fortawesome_react_fontawesome__["a" /* FontAwesomeIcon */], {
+  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    style: styles.socialMediaLink,
+    href: __WEBPACK_IMPORTED_MODULE_1__utils_info__["b" /* yfny */].socialMedia.twitter,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__fortawesome_react_fontawesome__["a" /* FontAwesomeIcon */], {
     style: styles.socialMediaIcon,
     icon: __WEBPACK_IMPORTED_MODULE_4__fortawesome_free_brands_svg_icons__["c" /* faTwitterSquare */],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 67
     }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     style: styles.yfnyLogo,
     src: __WEBPACK_IMPORTED_MODULE_2__utils_images__["a" /* img */].yfnyLogoWhite.url,
     alt: __WEBPACK_IMPORTED_MODULE_2__utils_images__["a" /* img */].yfnyLogoWhite.alt,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 69
     }
   }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     style: styles.importantInfo,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 73
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 74
     }
   }, "BY INVITATION ONLY. SEATING IS LIMITED."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 75
     }
   }, "ADVANCE REGISTRATION REQUIRED."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 76
     }
   }, "REGISTRATIONS ARE SCREENED.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     style: styles.rcnyCopyright,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 78
     }
-  }, "\xA9 ", new Date().getFullYear(), "\xA0", __WEBPACK_IMPORTED_MODULE_1__utils_info__["a" /* rcny */].name.toUpperCase()), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+  }, "\xA9 ", new Date().getFullYear(), "\xA0", __WEBPACK_IMPORTED_MODULE_1__utils_info__["a" /* rcny */].name.toUpperCase()), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    href: __WEBPACK_IMPORTED_MODULE_1__utils_info__["a" /* rcny */].website,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     style: styles.rcnyLogo,
     src: __WEBPACK_IMPORTED_MODULE_2__utils_images__["a" /* img */].rcnyLogoWhite.url,
     alt: __WEBPACK_IMPORTED_MODULE_2__utils_images__["a" /* img */].rcnyLogoWhite.alt,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 85
     }
-  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     style: styles.webDevSection,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 90
     }
   }, "web dev //", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     style: styles.webDevLink,
@@ -163,7 +246,7 @@ var styles = {
     href: "http://olegchursin.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 91
     }
   }, "\xA0oleg chursin")));
 });
@@ -452,7 +535,7 @@ var menu = __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(__WEBPAC
     lineNumber: 53
   }
 }, __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13_next_link___default.a, {
-  href: "/presentations",
+  href: "/registration",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 54
@@ -464,7 +547,7 @@ var menu = __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(__WEBPAC
     fileName: _jsxFileName,
     lineNumber: 55
   }
-}, "\u041F\u0440\u0435\u0437\u0435\u043D\u0442\u0430\u0446\u0438\u0438"))), __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_antd_lib_menu___default.a.Item, {
+}, "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F"))), __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_antd_lib_menu___default.a.Item, {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 58
@@ -556,7 +639,9 @@ var menu = __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(__WEBPAC
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_antd_lib_button___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_antd_lib_button__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react__ = __webpack_require__("./node_modules/react/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils_styles__ = __webpack_require__("./utils/styles.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_link__ = __webpack_require__("./node_modules/next/link.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils_styles__ = __webpack_require__("./utils/styles.js");
 
 
 var _jsxFileName = "/Users/oc/dev/rcny/yfny-next/components/RegistrationButton.jsx";
@@ -567,8 +652,9 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
+
 var styles = {
-  registrationButton: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_3__utils_styles__["b" /* typography */].lightSmallText, {
+  registrationButton: _objectSpread({}, __WEBPACK_IMPORTED_MODULE_4__utils_styles__["b" /* typography */].lightSmallText, {
     borderRadius: '50px',
     margin: '0 40px 0 20px'
   })
@@ -576,14 +662,20 @@ var styles = {
 
 var RegistrationButton = function RegistrationButton(_ref) {
   var title = _ref.title;
-  return __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_lib_button___default.a, {
+  return __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_next_link___default.a, {
+    href: "/registration",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    }
+  }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_lib_button___default.a, {
     type: "primary",
     style: styles.registrationButton,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 16
     }
-  }, title);
+  }, title));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (RegistrationButton);
@@ -32897,7 +32989,7 @@ exports.presetPrimaryColors = presetPrimaryColors;
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1536452237376");
+            injectCss(link, link.href.split("?")[0] + "?unix=1536736331631");
           });
       }
     }
@@ -33664,7 +33756,7 @@ __webpack_require__("./node_modules/antd/lib/affix/style/index.css");
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1536452237400");
+            injectCss(link, link.href.split("?")[0] + "?unix=1536736331681");
           });
       }
     }
@@ -33902,7 +33994,7 @@ __webpack_require__("./node_modules/antd/lib/back-top/style/index.css");
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1536456961071");
+            injectCss(link, link.href.split("?")[0] + "?unix=1536736331685");
           });
       }
     }
@@ -34312,7 +34404,7 @@ __webpack_require__("./node_modules/antd/lib/button/style/index.css");
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1536452237393");
+            injectCss(link, link.href.split("?")[0] + "?unix=1536736331645");
           });
       }
     }
@@ -34664,7 +34756,7 @@ __webpack_require__("./node_modules/antd/lib/button/style/css.js");
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1536452237397");
+            injectCss(link, link.href.split("?")[0] + "?unix=1536736331677");
           });
       }
     }
@@ -34923,7 +35015,7 @@ __webpack_require__("./node_modules/antd/lib/icon/style/index.css");
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1536452237390");
+            injectCss(link, link.href.split("?")[0] + "?unix=1536736331670");
           });
       }
     }
@@ -35521,7 +35613,7 @@ __webpack_require__("./node_modules/antd/lib/tooltip/style/css.js");
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1536452237385");
+            injectCss(link, link.href.split("?")[0] + "?unix=1536736331660");
           });
       }
     }
@@ -35554,7 +35646,7 @@ __webpack_require__("./node_modules/antd/lib/tooltip/style/css.js");
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1536452237381");
+            injectCss(link, link.href.split("?")[0] + "?unix=1536736331639");
           });
       }
     }
@@ -35954,7 +36046,7 @@ __webpack_require__("./node_modules/antd/lib/tooltip/style/index.css");
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1536452237387");
+            injectCss(link, link.href.split("?")[0] + "?unix=1536736331664");
           });
       }
     }
@@ -48560,22 +48652,29 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_InnerPageHero__ = __webpack_require__("./components/InnerPageHero.jsx");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Layout__ = __webpack_require__("./components/Layout.jsx");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_ContactPageContent__ = __webpack_require__("./components/ContactPageContent.jsx");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_Layout__ = __webpack_require__("./components/Layout.jsx");
 var _jsxFileName = "/Users/oc/dev/rcny/yfny-next/pages/contacts.jsx";
 
 
 
+
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Layout__["a" /* default */], {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_Layout__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_InnerPageHero__["a" /* default */], {
     title: 'Контакты',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_ContactPageContent__["a" /* default */], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
     }
   }));
 });

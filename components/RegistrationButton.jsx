@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import {Button} from 'antd';
 import {typography} from '../utils/styles'
 
@@ -11,7 +12,10 @@ const styles = {
 
 const RegistrationButton = ({title}) => {
     return (
-        <Button type='primary' style={styles.registrationButton}>{title}</Button>
+        <Link href='/registration'>
+            <Button type='primary' style={styles.registrationButton}>{title}</Button>
+        </Link>
+
     )
 }
 

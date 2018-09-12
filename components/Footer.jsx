@@ -38,6 +38,10 @@ const styles = {
         margin: '20px 0',
         fontSize: '3em'
     },
+    socialMediaLink: {
+        color: 'white',
+        cursor: 'pointer'
+    },
     yfnyLogo: {
         margin: 40,
         width: 250
@@ -57,9 +61,10 @@ export default() => {
                 / {yfny.socialMedia.nametag}</div>
             <div>{rcny.email}</div>
             <div style={styles.socialMediaGroup}>
-                <FontAwesomeIcon style={styles.socialMediaIcon} icon={faFacebookSquare}/>
-                <FontAwesomeIcon style={styles.socialMediaIcon} icon={faInstagram}/>
-                <FontAwesomeIcon style={styles.socialMediaIcon} icon={faTwitterSquare}/>
+                <a style={styles.socialMediaLink} href={yfny.socialMedia.facebook}><FontAwesomeIcon style={styles.socialMediaIcon} icon={faFacebookSquare}/>
+                    <a style={styles.socialMediaLink} href={yfny.socialMedia.instagram}><FontAwesomeIcon style={styles.socialMediaIcon} icon={faInstagram}/></a>
+                </a>
+                <a style={styles.socialMediaLink} href={yfny.socialMedia.twitter}><FontAwesomeIcon style={styles.socialMediaIcon} icon={faTwitterSquare}/></a>
             </div>
             <img
                 style={styles.yfnyLogo}
@@ -76,10 +81,12 @@ export default() => {
                     .name
                     .toUpperCase()}
             </div>
-            <img
-                style={styles.rcnyLogo}
-                src={img.rcnyLogoWhite.url}
-                alt={img.rcnyLogoWhite.alt}/>
+            <a href={rcny.website}>
+                <img
+                    style={styles.rcnyLogo}
+                    src={img.rcnyLogoWhite.url}
+                    alt={img.rcnyLogoWhite.alt}/>
+            </a>
             <div style={styles.webDevSection}>web dev //
                 <a style={styles.webDevLink} target='_blank' href="http://olegchursin.com">&#160;oleg chursin</a>
             </div>

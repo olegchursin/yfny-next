@@ -51,8 +51,8 @@ const menu = (
             </Link>
         </Menu.Item>
         <Menu.Item>
-            <Link href='/presentations'>
-                <a style={styles.menuLink} rel="noopener noreferrer">Презентации</a>
+            <Link href='/registration'>
+                <a style={styles.menuLink} rel="noopener noreferrer">Регистрация</a>
             </Link>
         </Menu.Item>
         <Menu.Item>
@@ -82,7 +82,6 @@ export default() => {
                     </Dropdown>
                     <RegistrationButton title={'Регистрация'}/>
                 </div>
-
             </div>
         </Affix>
     )
