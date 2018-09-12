@@ -1,7 +1,7 @@
 module.exports =
 __NEXT_REGISTER_PAGE('/contacts', function() {
           var comp =
-      webpackJsonp([6],{
+      webpackJsonp([8],{
 
 /***/ "./components/Footer.jsx":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -29,7 +29,7 @@ var styles = {
     adjustContent: 'center',
     alignItems: 'center',
     color: 'white',
-    minHeight: '70vh',
+    height: '600px',
     background: 'linear-gradient(19deg, #21D4FD 0%, #B721FF 100%)',
     padding: '40px 0 10px'
   },
